@@ -1,0 +1,6 @@
+{
+  "name": "PurinFit - Treino Leve de 20 Minutos",
+  "description": "Aplicativo de treino anti-trauma de 20 min, controle de água e creatina com estética fofa inspirada no Pompompurin.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

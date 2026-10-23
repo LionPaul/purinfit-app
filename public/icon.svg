@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Background Circle -->
+  <rect width="512" height="512" rx="128" fill="#FEF9E7"/>
+  <circle cx="256" cy="270" r="190" fill="#FAD02C" stroke="#7A4B29" stroke-width="16"/>
+
+  <!-- Left Ear -->
+  <ellipse cx="110" cy="240" rx="36" ry="70" fill="#FAD02C" stroke="#7A4B29" stroke-width="14" transform="rotate(-15 110 240)"/>
+  <!-- Right Ear -->
+  <ellipse cx="402" cy="240" rx="36" ry="70" fill="#FAD02C" stroke="#7A4B29" stroke-width="14" transform="rotate(15 402 240)"/>
+
+  <!-- Brown Beret -->
+  <ellipse cx="256" cy="115" rx="76" ry="32" fill="#7A4B29"/>
+  <!-- Beret Tip -->
+  <rect x="249" y="70" width="14" height="24" rx="7" fill="#7A4B29"/>
+
+  <!-- Eyes -->
+  <circle cx="196" cy="265" r="14" fill="#7A4B29"/>
+  <circle cx="316" cy="265" r="14" fill="#7A4B29"/>
+
+  <!-- Nose -->
+  <ellipse cx="256" cy="285" rx="12" ry="9" fill="#7A4B29"/>
+
+  <!-- Mouth -->
+  <path d="M 238 296 Q 248 308 256 296 Q 264 308 274 296" fill="none" stroke="#7A4B29" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Rosy Cheeks -->
+  <circle cx="160" cy="295" r="22" fill="#FFA5A5" opacity="0.65"/>
+  <circle cx="352" cy="295" r="22" fill="#FFA5A5" opacity="0.65"/>
+
+  <!-- Cute Pudding Badge at bottom -->
+  <g transform="translate(256, 420) scale(0.75)">
+    <path d="M -40 20 L -25 -25 L 25 -25 L 40 20 Z" fill="#FDE68A" stroke="#7A4B29" stroke-width="6"/>
+    <ellipse cx="0" cy="-25" rx="26" ry="10" fill="#7A4B29"/>
+    <ellipse cx="0" cy="20" rx="42" ry="12" fill="#F59E0B" stroke="#7A4B29" stroke-width="6"/>
+  </g>
+</svg>
